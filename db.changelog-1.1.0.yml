@@ -2,7 +2,7 @@ databaseChangeLog:
   - changeSet:
       id: DEMO002
       author: eddumelendez
-      update:
+      changes:
         - sqlFile:
             path: scripts/1.1.0/001_create_role_table.sql
       rollback:
